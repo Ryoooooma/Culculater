@@ -24,4 +24,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)tapBtn:(id)sender {
+    //ラベルの文字を変える処理をここに書く
+    self.myLabel.text = @"Ryoma";
+}
+- (IBAction)setNumber:(id)sender {
+
+    self.myLabel.text = self.myText.text;
+
+}
+
+
 @end

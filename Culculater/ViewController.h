@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+
+- (IBAction)tapBtn:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UITextField *myText;
+
+- (IBAction)setNumber:(id)sender;
 
 @end
 
